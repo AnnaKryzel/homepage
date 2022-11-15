@@ -1,0 +1,27 @@
+.navigation__list{
+    list-style-position: inside;
+    list-style:none;
+    padding: 15px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 50px;
+}
+
+.navigation__item{
+    margin: 20px;
+}
+
+.navigation__link{
+    color: rgb(171, 97, 142);
+    text-decoration: none;
+}
+
+.navigation__link:focus{
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover{
+    color: white;
+    border-bottom: 1px solid;
+    outline: none;
+}

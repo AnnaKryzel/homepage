@@ -1,0 +1,12 @@
+.section{
+    padding: 20px;
+}
+
+.section__header{
+    background-color: whitesmoke;
+}
+
+
+.section__welcome{
+    padding: 30px;
+}

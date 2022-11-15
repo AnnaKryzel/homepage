@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czekoladowy Pingwin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="header">
+        <button class="header__button js-changeBackgroundButton">Włącz <span class="themeName js-themeName">niebieskie</span> tło strony</button>
+        <img class="header__image" width="300" src="https://i.postimg.cc/d1ZTZ6h4/czekoladowy-pingwin-logo.jpg" alt="Czekoladowy Pingwin">
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O MNIE</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#zdjęcia">ZDJĘCIA</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#cennik">CENNIK</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#kontakt">KONTAKT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="o-mnie" class="section">
+            <h1 class="section__header">O mnie</h1>
+            <p>Nazywam się Ania Kryzel.</p>
+            <p><img width="200" src="https://i.postimg.cc/brQD3vHn/ania.jpg" alt="Ania Kryzel"></p>
+            <p> Z wykształcenia jestem <strong>dietetykiem</strong>, a z zamiłowania <strong>cukiernikiem</strong>.</p>
+            <p> Urodziłam się w Ciechanowie, chociaż całe życie mieszkam w Gdyni.</p>
+            <p> Jestem mamą dwóch córek.</p>
+            <img width="200" src="https://i.postimg.cc/pXJ5jpdb/nela.jpg" alt="Nela">
+            <img width="200" src="https://i.postimg.cc/59vCxPdt/jagoda.jpg" alt="Jagoda">
+            <p>Uwielbiam zwierzęta, dlatego jestem szczęśliwą posiadaczką dwóch kotów.</p>
+            <p>Moje motto życiowe:<i>"Be strong"</i></p>
+        </section>
+        <section id="zdjęcia" class="section">
+            <h2 class="section__header">Zdjęcia</h2>
+            <img width="200" src="https://i.postimg.cc/Y9VqXkJM/tort2.jpg" alt="tortZkwiatami">
+            <img width="200" src="https://i.postimg.cc/zB3GS32x/tort.jpg" alt="tortZkwiatami2">
+            <img width="200" src="https://i.postimg.cc/T3Tn6qHF/IMG-8335.jpg" alt=cakesiclesZananasem>
+            <img width="200" src="https://i.postimg.cc/KcVT1hpP/IMG-4862.jpg" alt="beza">
+        </section>
+        <section id="cennik" class="section">
+            <h2 class="section__header">Cennik</h2>
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Cennik ciast</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Nazwa ciasta</th>
+                        <th class="table__cell table__cell--header" scope="col">Cena</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Sernik nowojorski</td>
+                        <td class="table__cell">100zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Sernik chałwowy</td>
+                        <td class="table__cell">120zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Beza pavlova</td>
+                        <td class="table__cell">150zł</td>
+                    </tr>
+                </table>
+                <table class="table">
+                    <caption class="table__caption">Cennik mini deserów</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Nazwa mini deseru</th>
+                        <th class="table__cell table__cell--header" scope="col">Cena</th>
+                        <th class="table__cell table__cell--header" scope="col">Ilość sztuk</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Babeczki</td>
+                        <td class="table__cell">100zł</td>
+                        <td class="table__cell" rowspan="2">12 sztuk</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Mini tarty</td>
+                        <td class="table__cell">70zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Mini beza pavlova</td>
+                        <td class="table__cell">90zł</td>
+                        <td class="table__cell">10 sztuk</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="kontakt" class="section contact">
+            <h2 class="section__header">Kontakt</h2>
+            <p>Zamówienia można składać poprzez:</p>
+            <ul class="contact__list">
+                <li class="contact__item">Profil na
+                    <a class="contact__link" href="https://www.instagram.com/czekoladowy_pingwin/">Instagramie</a>
+                </li>
+                <li class="contact__item">Profil na
+                    <a class="contact__link"
+                        href="https://www.facebook.com/people/Czekoladowy-Pingwin/100037551985254/">Facebooku</a>
+                </li>
+                <li class="contact__item">Telefon:
+                    <a class="contact__link" href="tel.+48.123(456)789">123 456 789</a>
+                </li>
+                <li class="contact__item">E-mail:
+                    <a class="contact__link" href="mailto:czekoladowypingwin13@gmail.com">czekoladowypingwin13@gmail.com</a>
+                </li>
+            </ul>
+        </section>
+      <section class="section">
+        <p class="section__welcome"><em>Serdecznie zapraszam!</em></p>
+        <img class="section__image" width="150" src="https://i.postimg.cc/d1ZTZ6h4/czekoladowy-pingwin-logo.jpg"
+            alt="Czekoladowy Pingwin logo">
+        </section>
+    </main>
+    <footer>COPYRIGHT © 2022 CZEKOLADOWY PINGWIN.</footer>
+</body>
+
+</html>

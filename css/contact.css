@@ -1,0 +1,22 @@
+.contact__list{
+    list-style-position: inside;
+    list-style: none; 
+}
+
+.contact__item{
+    margin: 20px auto;
+}
+
+.contact__link{
+    color: rgb(171, 97, 142);
+    text-decoration: none;
+}
+.contact__link:focus{
+    outline: 2px solid currentColor;
+}
+
+.contact__link:hover{
+    color: white;
+    border-bottom: 1px solid;
+    outline: none;
+}

@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.body{
+    color: #2c3238;
+    max-width: 1000px;
+    margin: 00px auto;
+    background-color: pink;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+
+.header__button{
+    border-radius: 50px;
+    background-color: rgb(115, 161, 237);
+    color: white;
+    padding: 10px;
+    margin: 30px auto;
+    display: block;
+}
+
+.body--blue{
+    background-color: rgb(115, 161, 237);
+}
+
+.header__image{
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.section__image{
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
