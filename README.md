@@ -2,8 +2,17 @@
 
 ![Czekoladowy-pingwin-logo](images/czekoladowy-pingwin-logo.jpg)
 
-##DEMO
+## Demo
 
 https://annakryzel.github.io/homepage/
 
-###OPIS
+## Description
+
+This is my first website created as part of YouCode course.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- BEM convenion
+- ES6 + features
